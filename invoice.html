@@ -67,7 +67,37 @@
         font-weight: bold;
     }
 
-    
+    @media only screen and (max-width: 600px) {
+        .invoice-box table tr.top table td {
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+        .invoice-box table tr.information table td {
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+    }
+    div.divFooter {
+        position: fixed;
+        height: 30px;
+        background-color: purple;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+    }
+
+    /** RTL **/
+    .rtl {
+        direction: rtl;
+        font-family: Tahoma, 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif
+    }
+
+    .rtl table {
+        text-align: right;
+    }
+
     </style>
 </head>
 </html>
